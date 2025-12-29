@@ -14,16 +14,8 @@
 前往 [my.telegram.org](https://my.telegram.org) 获取你的 `API_ID` 和 `API_HASH`。
 通过 [@BotFather](https://t.me/BotFather) 创建一个机器人并获取 `BOT_TOKEN`。
 
-### 2. 环境准备
+### 2. 環境準備
 ```bash
 pip install pyrogram tgcrypto python-dotenv pytz
 
-### 3.配置
-创建 .env 文件，填入你的配置信息（参考 .env.example）：
-API_ID=123456
-API_HASH=your_api_hash
-BOT_TOKEN=your_bot_token
-MY_PERSONAL_ID=你的数字ID
-
-### 4. 运行
-python monitor.py
+### 3. 配置
