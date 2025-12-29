@@ -17,3 +17,11 @@
 ### 2. 环境准备
 ```bash
 pip install pyrogram tgcrypto python-dotenv pytz
+### 3. 配置
+创建 .env 文件，填入你的配置信息（参考 .env.example）：
+API_ID=123456
+API_HASH=your_api_hash
+BOT_TOKEN=your_bot_token
+MY_PERSONAL_ID=你的数字ID
+### 4. 运行
+python monitor.py
