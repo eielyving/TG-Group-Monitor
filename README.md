@@ -54,7 +54,8 @@ python3 monitor.py
 
 ```/add_spam``` 关键词：实时将该词加入屏蔽名单，并自动保存到 ```spam_words.txt```。
 
-```SIGN_TASKS```修改说明
+
+```SIGN_TASKS```修改说明:
 
 如果想修改签到任务，需要手动编辑 ```monitor.py``` 文件中的 ```SIGN_TASKS``` 列表
 
