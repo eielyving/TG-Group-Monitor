@@ -34,7 +34,7 @@ pip install pyrogram tgcrypto python-dotenv pytz
 ```
 
 ### 3. 配置环境变量
-创建一个名为 .env 的文件（可以参考 .env.example），内容如下：
+创建一个名为 .env 的文件（可以参考 ```.env.example```），内容如下：
 ```bash
 API_ID=30271473
 API_HASH=1d349a66cf916848f92018acc04cb09c
