@@ -46,11 +46,17 @@ MY_PERSONAL_ID=6753706885
 ```bash
 python3 monitor.py
 ```
+
 ## 🛠️ 功能说明
+
 屏蔽词动态维护
 你可以在 Telegram 的任何聊天窗口（如“收藏夹”）发送以下指令：
 
 ```/add_spam``` 关键词：实时将该词加入屏蔽名单，并自动保存到 ```spam_words.txt```。
+
+```SIGN_TASKS```修改说明
+
+如果想修改签到任务，需要手动编辑 ```monitor.py``` 文件中的 ```SIGN_TASKS``` 列表
 
 监控逻辑
 - 重点用户：实时追踪特定 UID 的发言。
