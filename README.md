@@ -20,6 +20,8 @@ TG-Group-Monitor/
 - **动态屏蔽词**：支持通过指令 `/add_spam` 实时添加屏蔽词并本地持久化。
 - **自动签到**：内置定时任务，支持按钮点击类和文本指令类机器人签到。
 
+<br>
+
 
 ## 🚀 快速开始
 
@@ -36,10 +38,10 @@ pip install pyrogram tgcrypto python-dotenv pytz
 ### 3. 配置环境变量
 创建一个名为 .env 的文件（可以参考 ```.env.example```），内容如下：
 ```bash
-API_ID=30271473
-API_HASH=1d349a66cf916848f92018acc04cb09c
+API_ID=88888888
+API_HASH=888888888888888888888
 BOT_TOKEN=你的机器人TOKEN
-MY_PERSONAL_ID=6753706885
+MY_PERSONAL_ID=8888888888
 ```
 ### 4. 运行程序
 第一次启动需要输入手机号验证码登录个人账号
